@@ -3,12 +3,13 @@ import './App.css';
 import Home from "./components/home";
 import WeatherDetails from './components/weatherDetails';
 
+
 function App() {
   return (
     <Router>
         <Routes>
-            <Route exact path = "/weather-at/:id" element = { <WeatherDetails /> } />
-            <Route exact path = "/" element={<Home />} />
+            <Route exact path = "/weather-app/weather-at/:id" element = { <WeatherDetails /> } />
+            <Route exact path = "/weather-app/" element={<Home />} />
         </Routes>
     </Router>
   );
