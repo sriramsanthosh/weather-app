@@ -1,0 +1,265 @@
+
+body{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  background: url("./images/back2.jpg");
+  /* background: azure; */
+  font-family: 'Aoboshi One', serif;
+  user-select: none;
+}
+
+.sungif{
+  margin: 20px 0;
+}
+
+i{
+  color: crimson;
+  font-size: 30px;
+}
+
+.container a{
+  text-decoration: none;
+}
+
+.appHeading{
+  text-align: center;
+  margin-top: 0;
+  font-family: 'Audiowide', cursive;
+  color: black;
+  font-size: 60px;
+  text-shadow: 1px 1px 2px white, 0 0 25px grey, 0 0 5px white;
+}
+
+.weather-description{
+  text-transform: capitalize;
+}
+
+
+.container{
+  margin: auto;
+  text-align: center;
+  margin-top: 10vh;
+  margin-bottom: 15px;
+  min-width: 350px;
+  width: auto;
+  max-width: 80vw;
+  padding: 30px 0;
+  background-color: azure;
+  border-radius: 5px;
+  min-width: 320px;
+  box-shadow: 3px 5px 20px 3px black;
+}
+
+
+
+.weather-icon{
+  position: relative;
+  width: 140px;
+  border-radius: 50%;
+  margin: auto;
+  background: skyblue;
+}
+
+.nobgcolor{
+  background: transparent;
+}
+
+.weather-icon img{
+  width: inherit;
+  height: inherit;
+}
+
+.share-button{
+  margin-top: 20px;
+}
+
+
+.line-hor{
+  height: 1px;
+  width: 100%;
+  margin: 25px 0;
+  background: #ccc;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+
+.temp{
+  font-size: 60px;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 10px;
+  font-family: 'Aoboshi One', serif;
+  
+}
+
+.matter{
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.weather-description{
+  font-size: 15px;
+}
+
+.location{
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.form-container{
+  margin: 20px 0;
+  padding: 0 5px;
+}
+
+
+
+h1 img{
+  width: 50px;
+  margin: 0 10px;
+}
+
+.feels{
+  font-size: 20px;
+}
+
+
+
+.fifty-fifty-container{
+  display: inline-flex;
+  width: 100%;
+  align-items: cneter;
+  justify-content: space-between;
+
+}
+
+.fifty-fifty{
+  width: inherit;
+  border-right: 1px solid #ccc;
+  flex-wrap: wrap;
+}
+
+.fifty-fifty:hover{
+  cursor: pointer;
+}
+
+.input-box{
+  font-size: 25px;
+  font-family: 'Aoboshi One', serif;
+  text-transform: capitalize;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.input-search{
+  border: none;
+  background-color: whitesmoke;
+  border: 1px solid black;
+}
+
+.input-city:focus{
+  outline: none;
+}
+
+.input-city{
+  position: relative;
+  border: 1px solid black;
+  border-right: none;
+  background-color: whitesmoke;
+  width: 80%;
+  max-width: 280px;
+}
+
+.home{
+  font-size: 30px;
+}
+
+.home:hover{
+  color: crimson;
+}
+
+.search-city-container{
+  border: 1px solid black;
+  width: fit-content;
+  margin: auto;
+}
+
+.text-center{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.author{
+  font-weight: bolder;
+  font-size: 25px;
+  color: red;
+  font-family: 'Dancing Script', cursive;
+}
+
+.author:hover{
+  color: hotpink;
+}
+
+.wish{
+  font-family: 'Dancing Script', cursive;
+  color: #5E2121;
+  font-weight: bolder;
+  font-size: 70px;
+}
+
+footer{
+  margin-top: 30px;
+  width: 100%;
+}
+
+@media screen and (max-width:610px){
+  .appHeading{
+      font-size: 45px;
+  }
+
+  h1 img{
+      width: 40px;
+  }
+}
+@media screen and (max-width:487px){
+  .container{
+      max-width: none;
+      width: 90%;
+  }
+}
+@media screen and (max-width:426px){
+  .container{
+      width: 95%;
+      max-width: none;
+  }
+
+  h1 img{
+      width: 30px;
+      margin: 0 10px;
+  }
+
+  .input-city{
+      max-width: none;
+  }
+
+  .wish{
+      font-size: 45px;
+  }
+
+  .appHeading{
+      font-size: 2em;
+  }
+}
+
+@media screen and (max-width:350px){
+  .appHeading{
+      font-size: 1.8em;
+  }
+}
