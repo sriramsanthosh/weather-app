@@ -1,7 +1,7 @@
 <h1 align="center">🌞 Weather App ⛈️</h1>
 
 ### Project Deployed Link :
-This project is live at : https://weather-app-sriramsanthoshs-projects.vercel.app/4
+This project is live at : https://weather-app-sriramsanthoshs-projects.vercel.app/
 
 ### Features
 - 🌞 Get weather details at any 🌆 city.
