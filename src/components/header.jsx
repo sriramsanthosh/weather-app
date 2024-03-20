@@ -7,7 +7,7 @@ const Header = () => {
     let handleForm = async(e)=>{
         e.preventDefault();
         let city = e.target.city.value.toLowerCase().trim();
-        Navigate(`/weather-app/weather-at/${city}`, {state:{data: city}});   
+        Navigate(`/weather-at/${city}`, {state:{data: city}});   
     }
 
     return (
