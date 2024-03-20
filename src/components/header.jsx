@@ -12,7 +12,7 @@ const Header = () => {
 
     return (
         <div>
-            <NavLink to="/weather-app"><h1 className="appHeading"><img src={require("../images/icons/01d.png")} alt=""/>WeatherApp</h1></NavLink>
+            <NavLink to="/"><h1 className="appHeading"><img src={require("../images/icons/01d.png")} alt=""/>WeatherApp</h1></NavLink>
             <form className="form-container" onSubmit={(e)=>{
                 handleForm(e);
             }}>
